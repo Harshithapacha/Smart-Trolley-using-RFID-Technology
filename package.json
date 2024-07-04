@@ -1,0 +1,37 @@
+{
+  "name": "iot-smart-trolley",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Final year project, a smart shopping trolley which is build using React, a SQL Database which store user data & products of shopping complex, firebase is used for signing and logging of user and the logic part is written using node & express and the smart trolley device is build using c++",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "env-cmd": "^10.1.0",
+    "firebase": "^8.2.10",
+    "react": "^17.0.1",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "redux": "^4.0.5",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "server": "nodemon ./server/index.js",
+    "client": "npm start --prefix client",
+    "client:run": "npm start env-cmd react-scripts start --prefix client",
+    "client:build": "npm run build --prefix client",
+    "serve:client": "serve -s ./client/build",
+    "start": "npm run client && npm run server"
+  }
+}
