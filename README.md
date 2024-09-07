@@ -4,7 +4,7 @@ Developed a smart trolley model that uses RFID technology to automatically ident
 
 ### Components used to build the Smart Trolley :
 
-ESP8266 Board
+ESP8266 Board, Arduino IDE
 20*4 I2C LCD DISPLAY
 EM-18 RFID READER
 3.7V 186050 2600 Mah battery
